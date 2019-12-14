@@ -8,7 +8,7 @@
     width: 133px;
     height: 33px;
     text-decoration: none;
-    background-color: #bb5794;
+    background-color: #5f7fff;
     color: #ffffff;
     border: 1px solid transparent;
     border-radius: 6px;
@@ -20,7 +20,11 @@
 
     &:hover,
     &:active {
-      background-color: #a0457d;
+      -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5);
+      text-decoration: none;
+      box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5);
+      opacity: 0.85;
+      color: #ffffff;
     }
 
     img {
